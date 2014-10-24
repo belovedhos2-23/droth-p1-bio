@@ -1,13 +1,14 @@
 /* Your Website Styles */
+
 h1	{
 color: #FF5050;
 font-family: 'Arvo', sans-serif;
 width: 100%;
 font-size: 3em;
 margin: 100px orange;
-padding: 10px 10px 10px 0px;
+padding: 10px 10px 20px 20px;
 text-align: center;
-background-color: #404055; 
+background-color: #3C3C40; 
 letter-spacing: +8px
 }
 

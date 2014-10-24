@@ -1,32 +1,35 @@
 /* Your Website Styles */
 h1	{
 color: #FF5050;
-font-family: 'Shadows Into Light', sans-serif;
-width: 100%
-padding: 10px;
-font-size: 80px;
+font-family: 'Arvo', sans-serif;
+width: 100%;
+font-size: 3em;
 margin: 100px orange;
-padding: 20px 20px;
+padding: 10px 10px 10px 0px;
 text-align: center;
-background-color: #404055; opacity: 80%;
+background-color: #404055; 
+letter-spacing: +8px
 }
 
-h2{
-	text-align: right;
+h2 {
+	text-align: left;
+	font-family: 'Arvo', sans-serif;
+	color:#404055;
+}
+h3 {
+	text-align: left;
+	font-family: 'Arvo', sans-serif;
+	color: #404055;
 }
 
 p {
 	text-align: right;
 }
-#map {
-margin-top: -60px
-
-}
 
 img	{
 	
-	width: 400px;
-	border-radius: 20px;
+	width: 480px;
+	border-radius: 40px;
 }
 body	{
 background: url(../img/wavegrid.png)
@@ -37,7 +40,22 @@ background: url(../img/wavegrid.png)
 	background: url("../img/grid-bg.png") repeat-y;
 }
 
-nav {
+a {
 	list-style: none;
 	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
 }
+
+ul {
+	margin: 0 0 0 0;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	margin-right: 40px;
+}
+
+
+

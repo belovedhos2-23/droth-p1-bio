@@ -14,7 +14,7 @@ letter-spacing: +8px
 
 h2 {
 	text-align: left;
-	font-family: 'Arvo', sans-serif;
+	font-family: 'Poiret One', sans-serif;
 	color:#404055;
 }
 h3 {
@@ -24,7 +24,12 @@ h3 {
 }
 
 p {
-	text-align: right;
+	text-align: left;
+	font-family: 'Poiret One', sans-serif;
+}
+
+nav a {
+	font-family: 'Poiret One', sans-serif;
 }
 
 img	{

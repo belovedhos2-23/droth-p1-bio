@@ -1,0 +1,43 @@
+/* Your Website Styles */
+h1	{
+color: #FF5050;
+font-family: 'Shadows Into Light', sans-serif;
+width: 100%
+padding: 10px;
+font-size: 80px;
+margin: 100px orange;
+padding: 20px 20px;
+text-align: center;
+background-color: #404055; opacity: 80%;
+}
+
+h2{
+	text-align: right;
+}
+
+p {
+	text-align: right;
+}
+#map {
+margin-top: -60px
+
+}
+
+img	{
+	
+	width: 400px;
+	border-radius: 20px;
+}
+body	{
+background: url(../img/wavegrid.png)
+
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+nav {
+	list-style: none;
+	text-decoration: none;
+}

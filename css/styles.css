@@ -1,67 +1,50 @@
 /* Your Website Styles */
-
-h1	{
-color: #FF5050;
-font-family: 'Arvo', sans-serif;
-width: 100%;
-font-size: 3em;
-margin: 100px orange;
-padding: 10px 10px 20px 20px;
-text-align: center;
-background-color: #3C3C40; 
-letter-spacing: +8px
-}
-
-h2 {
-	text-align: left;
-	font-family: 'Poiret One', sans-serif;
-	color:#404055;
-}
-h3 {
-	text-align: left;
-	font-family: 'Arvo', sans-serif;
-	color: #404055;
-}
-
-p {
-	text-align: left;
-	font-family: 'Poiret One', sans-serif;
-}
-
-nav a {
-	font-family: 'Poiret One', sans-serif;
-}
-
-img	{
-	
-	width: 480px;
-	border-radius: 40px;
-}
-body	{
-background: url(../img/wavegrid.png)
-
-}
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+body {
+	background-image: url('../img/halftone.png');
+	color: #999;
 }
 
 a {
-	list-style: none;
 	text-decoration: none;
+	color: #313A3A;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#logo {
 	text-align: center;
+	margin: 0;
+}
+
+
+
+header {
+	background: #4C5A5A;
+	border-color: #599a68;
+}
+
+h1, h2 {
+	color: #99FFCC;
+}
+
+nav a {
+	color: #FFF;
+}
+
+nav a:visited {
 	color: #FFFFFF;
 }
 
-ul {
-	margin: 0 0 0 0;
-	list-style: none;
+nav a.selected, nav a:hover {
+	color: #A3C2C2;
 }
 
-ul li {
-	float: left;
-	margin-right: 40px;
-}
+
+/* Show Grid */
 
 
 
